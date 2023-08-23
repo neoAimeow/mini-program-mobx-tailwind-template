@@ -1,0 +1,3 @@
+<!--pages/index/index.wxml-->
+
+<view class="text-red-500"> test </view>

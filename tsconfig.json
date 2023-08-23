@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "module": "CommonJS",
+        "target": "ES2020",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "alwaysStrict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "strictPropertyInitialization": true,
+        "lib": ["ES2020", "dom"],
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        // "baseUrl": "./",
+        // "paths": {
+        //     // 模块名到基于 baseUrl 的路径映射的列表
+        //     "@/*": ["src/*"]
+        // },
+        "types": ["miniprogram-api-typings"],
+        "typeRoots": ["typings"]
+    },
+    "include": [
+        "./src/*",
+        "./**/*.ts",
+        "prettier.config.js",
+        "postcss.config.js",
+        "src/component/custom-tab-bar",
+        "src/health-package/pages/fast-choose-time/index.js"
+    ],
+    "exclude": ["node_modules", "dist", "webpack.config.js", "jest.config.js"]
+}

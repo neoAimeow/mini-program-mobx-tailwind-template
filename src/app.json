@@ -1,0 +1,23 @@
+{
+    "pages": [
+        "pages/index/index"
+    ],
+    "subpackages": [
+     
+    ],
+    "usingComponents": {},
+    
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000D1F",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#000D1F"
+    },
+    "darkmode": true,
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "networkTimeout": {
+        "request": 20000
+    }
+}
